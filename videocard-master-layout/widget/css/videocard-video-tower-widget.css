@@ -1,0 +1,366 @@
+.sp-videocard-tower-small {
+    display: grid;
+    width: 256px;
+    height: 482px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+} 
+ 
+.sp-videocard-tower-small__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;  
+}
+ 
+.sp-videocard-tower-small__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-tower-small__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-tower-small__header img {
+    
+}
+
+.sp-videocard-tower-small__body {
+    width: 100%;
+    height: 320px;
+    margin: 0;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-videocard-tower-small__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-tower-small__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-tower-small__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-small__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-small:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-tower-small:focus {
+    outline: 0;
+}
+
+.sp-videocard-tower-small:active {
+    border-color: #003768;
+}
+
+.sp-videocard-tower-small.disabled,
+.sp-videocard-tower-small:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-tower-small .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-tower-small .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-tower-medium {
+    display: grid;
+    width: 384px;
+    height: 576px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-videocard-tower-medium__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sp-videocard-tower-medium__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-tower-medium__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-tower-medium__header img {
+    
+}
+
+.sp-videocard-tower-medium__body {
+    width: 100%;
+    height: 460px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-videocard-tower-medium__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-tower-medium__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-tower-medium__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-medium__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-medium:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-tower-medium:focus {
+    outline: 0;
+}
+
+.sp-videocard-tower-medium:active {
+    border-color: #003768;
+}
+
+.sp-videocard-tower-medium.disabled,
+.sp-videocard-tower-medium:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-tower-medium .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-tower-medium .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-tower-larger {
+    display: grid;
+    width: 512px;
+    height: 800px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-videocard-tower-larger__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sp-videocard-tower-larger__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-tower-larger__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-tower-larger__header img {
+    
+}
+
+.sp-videocard-tower-larger__body {
+    width: 100%;
+    height: 680px;
+    margin: 0;
+    padding: 8px;
+    overflow: scroll;
+}
+
+.sp-videocard-tower-larger__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-tower-larger__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-tower-larger__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-larger__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-tower-larger:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-tower-larger:focus {
+    outline: 0;
+}
+
+.sp-videocard-tower-larger:active {
+    border-color: #003768;
+}
+
+.sp-videocard-tower-larger.disabled,
+.sp-videocard-tower-larger:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-tower-larger .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-tower-larger .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-tower__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media (max-width: 840px)  
+{
+    .sp-videocard-tower-small {
+        width: 192px;
+        height: 256px;
+    }
+
+    .sp-videocard-tower-medium {
+        width: 224px;
+        height: 320px;
+    }
+
+    .sp-videocard-tower-larger {
+        width: 256px;
+        height: 384px;
+    }
+
+    .sp-videocard-tower-small__footer {
+        text-align: center;
+    }
+
+    .sp-videocard-tower-medium__footer {
+        text-align: right;
+    }
+
+    .sp-videocard-tower-larger__footer {
+        text-align: right;
+    }
+}

@@ -1,0 +1,365 @@
+.sp-videocard-bridge-small {
+    display: grid; 
+    width: 544px;
+    height: 256px;
+    border-radius: 24px;
+    overflow: hidden;
+} 
+ 
+.sp-videocard-bridge-small__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+ 
+.sp-videocard-bridge-small__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-bridge-small__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-bridge-small__header img {
+    
+}
+
+.sp-videocard-bridge-small__body {
+    width: 100%;
+    height: 220px;
+    margin: 0;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-videocard-bridge-small__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-bridge-small__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-bridge-small__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-small__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-small:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-bridge-small:focus {
+    outline: 0;
+}
+
+.sp-videocard-bridge-small:active {
+    border-color: #003768;
+}
+
+.sp-videocard-bridge-small.disabled,
+.sp-videocard-bridge-small:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-bridge-small .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-bridge-small .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-bridge-medium {
+    display: grid;
+    width: 672px;
+    height: 384px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-videocard-bridge-medium__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sp-videocard-bridge-medium__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-bridge-medium__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-bridge-medium__header img {
+    
+}
+
+.sp-videocard-bridge-medium__body {
+    width: 100%;
+    height: 360px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-videocard-bridge-medium__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-bridge-medium__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-bridge-medium__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-medium__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-medium:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-bridge-medium:focus {
+    outline: 0;
+}
+
+.sp-videocard-bridge-medium:active {
+    border-color: #003768;
+}
+
+.sp-videocard-bridge-medium.disabled,
+.sp-videocard-bridge-medium:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-bridge-medium .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-bridge-medium .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-bridge-larger {
+    display: grid;
+    width: 800px;
+    height: 512px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-videocard-bridge-larger__area {
+    grid-row: 1 / -1;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sp-videocard-bridge-larger__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    padding-left: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-videocard-bridge-larger__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-videocard-bridge-larger__header img {
+    
+}
+
+.sp-videocard-bridge-larger__body {
+    width: 100%;
+    height: 480px;
+    margin: 0;
+    padding: 8px;
+    overflow: scroll;
+}
+
+.sp-videocard-bridge-larger__body::-webkit-scrollbar {
+    height: 0;
+}
+
+.sp-videocard-bridge-larger__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sp-videocard-bridge-larger__footer a {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-larger__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-videocard-bridge-larger:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    border: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-videocard-bridge-larger:focus {
+    outline: 0;
+}
+
+.sp-videocard-bridge-larger:active {
+    border-color: #003768;
+}
+
+.sp-videocard-bridge-larger.disabled,
+.sp-videocard-bridge-larger:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-videocard-bridge-larger .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-videocard-bridge-larger .shop-video-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-videocard-bridge__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media (max-width: 840px)  
+{
+    .sp-videocard-bridge-small {
+        width: 224px;
+        height: 160px;
+    }
+
+    .sp-videocard-bridge-medium {
+        width: 256px;
+        height: 192px;
+    }
+
+    .sp-videocard-bridge-larger {
+        width: 288px;
+        height: 224px;
+    }
+
+    .sp-videocard-bridge-small__footer {
+        text-align: center;
+    }
+
+    .sp-videocard-bridge-medium__footer {
+        text-align: right;
+    }
+
+    .sp-videocard-bridge-larger__footer {
+        text-align: right;
+    }
+}
