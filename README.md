@@ -1,7 +1,6 @@
 # mega-mapas-api
 
-[![Vídeo YouTube - mega-widget-sys](https://img.youtube.com/vi/r35FusrF0YI/hqdefault.jpg)](https://youtu.be/r35FusrF0YI?si=f5WF5jGr82-Gm2sI)
-
+[![Playlist YouTube - mega-mapas-api](https://img.youtube.com/vi/vQQcB-Ol3j8/maxresdefault.jpg)](https://youtube.com/playlist?list=PLz9bzqrAthDksDrwxE-RmyaeCo6IR6ft7&si=htigXOrWUPg_LjcC)
 
 ## 📋 Descrição
 
