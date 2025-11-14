@@ -1,0 +1,263 @@
+:root {
+  --shop-color-primary: #0d6efd;
+  --shop-color-secondary: #6c757d;
+  --shop-color-success: #198754;
+  --shop-color-danger: #dc3545;
+  --shop-color-warning: #ffc107;
+  --shop-color-info: #0dcaf0;
+  --shop-color-light: #f8f9fa;
+  --shop-color-dark: #212529;
+  --shop-color-body: #212529;
+  --shop-color-muted: #6c757d;
+  --shop-color-white: #ffffff;
+  --shop-color-black-50: rgba(0, 0, 0, 0.5);
+  --shop-color-white-50: rgba(255, 255, 255, 0.5);
+
+  --shop-color-surface: #081107;
+  --shop-color-accent: #2cdd0d;
+  --shop-color-defered: #6f42c1;
+  --shop-color-grey-30: #e0e0e0;
+}
+ 
+.sp-collapse-tower {
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+}
+ 
+.sp-collapse-tower .sp-collapse-tower__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    XXXfont-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+
+.sp-collapse-tower .sp-collapse-tower__link:hover {
+    background-color: #F5F5F5;
+}
+
+.sp-collapse-tower .sp-collapse-tower__link.active {
+    background-color: #ccc;
+}
+
+.sp-collapse-tower .sp-collapse-tower__link.sp-collapse-tower__link-active {
+    background-color: #D3D3D3;
+    display: flex;
+}
+
+.sp-collapse-tower__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.sp-collapse-tower__content {
+    display: none;
+    margin: 8px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.sp-collapse-tower__content.sp-collapse-tower__content-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.sp-collapse-tower .sp-collapse-tower__link img.sp-tab-icon {
+    display: inline-block;
+}
+
+/*COLLAPSE IMAGE*/
+.sp-collapse-image-container-img {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.sp-collapse-image-content {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*COLLAPSE TEXT*/
+.sp-collapse-text-title {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 12px;
+    XXXfont-family: 'Arial', sans-serif;
+    XXXfont-size: 1.0rem;
+    XXXfont-weight: 800;
+    color: #1b263b;
+    word-wrap: break-word;
+}
+
+.sp-collapse-text-paragraph {
+    XXXfont-family: 'Arial', sans-serif; 
+    XXXfont-size: 16px; 
+    XXXline-height: 1.0; 
+    color: black;
+    text-align: justify; 
+    padding: 10px 15px; 
+    background-color: #f9f9f9; 
+    border-left: 4px solid #D1D1D1; 
+    border-radius: 8px; 
+}
+
+.sp-collapse-text-caption {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 6px;
+    word-wrap: break-word;
+}
+
+/*COLLAPSE VIDEO*/
+.sp-collapse-video-container {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.sp-collapse-video-content {
+    width: 250px;
+    height: 125px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+/*COLLAPSE AUDIO*/
+.sp-collapse-audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.sp-collapse-audio-content {
+    width: 300px; 
+    min-width: 200px;
+    object-fit: cover;
+    background-color: #f5f5f5; 
+    border: solid 1px #cccccc;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.sp-collapse-audio-content::-webkit-media-controls {
+    background-color: #ffffff; 
+}
+
+.sp-collapse-audio-content::-webkit-media-controls-enclosure {
+    background-color: #ffffff; 
+}
+
+.sp-collapse-audio-content::-webkit-media-controls-panel {
+    background-color: #ffffff; 
+}
+
+.sp-collapse-audio-content::-webkit-media-controls-play-button {
+    XXXbackground-color: #007bff; 
+    border-radius: 50%; 
+    color: white; 
+}
+
+/*CARD COLLAPSE*/
+.sp-collapse-card-container-tower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background-color: #D1D1D1;
+}
+
+.sp-collapse-card-body-tower {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sp-collapse-card-tab-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    margin: 12px 0px;
+    border-bottom: solid 2px #D3D3D3;
+}
+
+.sp-collapse-card-tab-footer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+}
+
+.sp-collapse-card-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.shop-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 24px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transition: background-color 0.3s ease;
+}
+
+.shop-button-dark {
+    background-color: var(--shop-color-dark); 
+}
