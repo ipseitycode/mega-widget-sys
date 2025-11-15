@@ -1,0 +1,860 @@
+:root {
+  --sp-adverty-bridge-text-color: #FFF;
+  --sp-adverty-bridge-color-dark-level-1: #0d1b2a;
+  --sp-adverty-bridge-color-dark-level-2: #1b263b;
+  --sp-adverty-bridge-color-dark-level-3: #415a77;
+  --sp-adverty-bridge-color-dark-level-4: #778da9;
+  --sp-adverty-bridge-color-dark-level-5: #e0e1dd;
+  --sp-adverty-bridge-color-dark-level-6: #f2f3f3;
+  --sp-adverty-bridge-color-light-level-1: #ffffff;
+  --sp-adverty-bridge-color-light-level-2: #f5f5f5;
+  --sp-adverty-bridge-color-light-level-3: #e8e8e8;
+  --sp-adverty-bridge-color-light-level-4: #dcdcdc;
+  --sp-adverty-bridge-color-light-level-5: #d3d3d3;
+  --sp-adverty-bridge-color-light-level-6: #c8c8c8;
+  --sp-adverty-bridge-larger-height: 140px;
+  --sp-adverty-bridge-small-height: 40px;
+  --sp-var-deck-color-surface: #212529;
+  --sp-var-deck-color-accent: #7209b7;
+  --sp-var-deck-color-highlight: #a7c957;
+}
+
+.sp-adverty-bridge__mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    XXXposition: fixed;
+    XXXtop: 0px;
+    XXXleft: 0px;
+    background-color: var(--sp-var-deck-color-highlight);
+    color: var(--sp-adverty-bridge-text-color);
+    gap: 0;
+    overflow: hidden;
+    XXXz-index: 3010;
+    XXXborder: solid 3px blue;
+}
+
+.sp-adverty-bridge__mobile-open {
+    animation: spAdvertyBridgeMoveEnter 10s ease;
+}
+
+.sp-adverty-bridge__mobile-close {
+    XXXbackground-color: white;
+    animation: spAdvertyBridgeMoveExit 2s ease;
+}
+
+.sp-adverty-bridge__mobile-open-close {
+    animation: spAdvertyBridgeMoveEnterExit 30s ease infinite;
+}
+
+.sp-adverty-bridge__mobile>* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: var(--sp-adverty-bridge-text-color);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    XXXposition: relative;
+    XXXbackground-color: var(--sp-var-deck-color-highlight);
+    XXXbackground-color: yellow;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-header,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-small {
+    display: none;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    XXXheight: var(--sp-adverty-bridge-larger-height);
+    text-align: center;
+    overflow: hidden;
+    max-height: 100px;
+    XXXborder-right: solid 1px red;
+    XXXbackground-color: yellow;
+    overflow: hidden;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-coupon,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-shipping,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-delivery,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-discount {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    XXXwidth: 100%;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: var(--sp-adverty-bridge-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+    cursor: pointer;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium:hover {
+    text-decoration: none;
+    border-radius: 75px;
+    XXXpadding: 2px 4px;
+    transform: scalex(1.1);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium:link,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium:visited,
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium:active {
+    text-decoration: none;
+    color: var(--sp-adverty-bridge-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/icon-default.svg?v11');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*ICONS*/
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-cash {
+    background-image: url('../images/icon-cash.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-localization {
+    background-image: url('../images/icon-localization.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-tag {
+    background-image: url('../images/icon-tag.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-ticket {
+    background-image: url('../images/icon-ticket.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-truck {
+    background-image: url('../images/icon-truck.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon-close {
+    display: inline-block;
+    flex: 1;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/icon-close.svg?v12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon {
+    XXXdisplay: none;
+}
+
+.sp-adverty-bridge__mobile {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 320px;
+    height: 224px;
+    border-radius: 20px;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 320px;
+    height: 224px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 38px;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 95%;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    XXXbackground-color: black;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-coupon{
+    flex: 1;
+    width: 100%;
+    order: 1;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-shipping{
+    flex: 1;
+    width: 100%;
+    order: 4;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: 70%;
+    XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+    XXbackground-color: limegreen;
+    XXXborder-radius: 5px;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-icon:hover {
+    background-size: 80%;
+    cursor: pointer;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium {
+    -moz-box-sizing: border-box;
+    width: 90%;
+    height: 32px;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-medium:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-text {
+    display: inline-block;
+    width: 320px;
+    height: 100%;
+    XXXpadding-top: 10px;
+    vertical-align: middle;
+    XXXbackground-color: orange;
+    text-align: left;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-small {
+    display: inline-block;
+    XXXmargin: 6px;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    color: var(--sp-adverty-bridge-color-light-level-1);
+    background-color: var(--sp-adverty-bridge-color-dark-level-2);
+    cursor: pointer;
+    XXXbackground-color: orange;
+}
+
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-small:hover {
+    transform: scale(0.8);
+    background-color: grey;
+}
+
+/*
+.sp-adverty-bridge__mobile .sp-adverty-bridge__mobile-button-small:hover + .sp-adverty-bridge__mobile {
+    background-color: red;
+    animation: spAdvertyBridgeMoveEnter 10s ease-in-out infinite;
+}
+
+
+@keyframes spAdvertyBridgeMoveEnter {
+    0% {
+        top: -360px; 
+    }
+
+    5% {
+        top: 360px;
+    }
+
+    10% {
+        top: 330px;
+    }
+
+    15% {
+        top: 360px;
+    }
+
+    90% {
+        top: 360px;
+    }
+
+    100% {
+        top: 340px;
+    }
+}
+
+@keyframes spAdvertyBridgeMoveExit {
+    0% {
+        top: 340px;
+    }
+
+    25% {
+        top: 360px;
+    }
+
+    50% {
+        top: 320px;
+    }
+
+    75% {
+        top: 340px;
+    }
+
+    100% {
+        top: -360px;
+    }
+}
+
+/* POPUP 30 SEGUNDOS */
+/*
+@keyframes spAdvertyBridgeMoveEnterExit {
+
+    0% {
+        top: -640px;
+    }
+
+    10% {
+        top: -640px; 
+    }
+
+    12% {
+        top: 360px;
+    }   
+
+    14% {
+        top: 320px; 
+    }
+
+    16% {
+        top: 340px; 
+    }
+
+    90% {
+        top: 340px;
+    }
+
+    92% {
+        top: 360px; 
+    }
+
+    94% {
+        top: 320px; 
+    }
+
+    96% {
+        top: 340px; 
+    }
+
+    98% {
+        top: -640px;
+    }
+
+    100% {
+        top: -640px; 
+    }
+}
+*/
+
+.sp-adverty-rounded__mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    XXXposition: fixed;
+    XXXtop: 0px;
+    XXXleft: 0px;
+    background-color: var(--sp-var-deck-color-highlight);
+    color: var(--sp-adverty-bridge-text-color);
+    gap: 0;
+    overflow: hidden;
+    XXXz-index: 3010;
+    XXXborder: solid 3px blue;
+}
+
+.sp-adverty-rounded__mobile-open {
+    animation: spAdvertyBridgeMoveEnter 10s ease;
+}
+
+.sp-adverty-rounded__mobile-close {
+    XXXbackground-color: white;
+    animation: spAdvertyBridgeMoveExit 2s ease;
+}
+
+.sp-adverty-rounded__mobile-open-close {
+    animation: spAdvertyBridgeMoveEnterExit 30s ease infinite;
+}
+
+.sp-adverty-rounded__mobile>* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: var(--sp-adverty-bridge-text-color);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    XXXbackground-color: var(--sp-var-deck-color-highlight);
+    XXXbackground-color: yellow;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-header,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-small {
+    display: none;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    XXXheight: var(--sp-adverty-bridge-larger-height);
+    text-align: center;
+    overflow: hidden;
+    max-height: 100px;
+    XXXborder-right: solid 1px red;
+    XXXbackground-color: yellow;
+    overflow: hidden;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-coupon,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-shipping,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-delivery,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-discount {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    XXXwidth: 100%;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 90%;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: var(--sp-adverty-bridge-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+    cursor: pointer;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium:hover {
+    text-decoration: none;
+    border-radius: 75px;
+    padding: 2px 4px;
+    transform: scalex(1.1);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium:link,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium:visited,
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium:active {
+    text-decoration: none;
+    color: var(--sp-adverty-bridge-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/icon-default.svg?v11');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    XXXwidth: 100%;
+    height: 36px;
+    XXXpadding-top: 6px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*ICONS*/
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-cash {
+    background-image: url('../images/icon-cash.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-localization {
+    background-image: url('../images/icon-localization.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-tag {
+    background-image: url('../images/icon-tag.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-ticket {
+    background-image: url('../images/icon-ticket.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-truck {
+    background-image: url('../images/icon-truck.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon-close {
+    display: inline-block;
+    flex: 1;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/icon-close.svg?v12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon {
+    XXXdisplay: none;
+}
+
+.sp-adverty-rounded__mobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    XXXposition: fixed;
+    XXXtop: -340px;
+    top: 350px;
+    padding: 0px;
+    left: 50%;
+    XXXtransform: translate(-50%, -50%);
+    border-radius: 50%;
+    /* animation: spAdvertyBridgeMoveEnter 8s ease-in-out forwards; */
+    /* animation: spAdvertyBridgeMoveEnter 10s ease-in-out infinite; */
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 6px;
+    XXXborder-radius: 50%;
+    XXXbackground: red;
+    XXXborder: solid 1px yellow;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    XXtop: 5px;
+    XXright: 10px;
+    width: 95%;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    XXXbackground-color: black;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    XXXheight: var(--sp-adverty-bridge-small-height);
+    XXXmax-height: 80px;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    XXXborder-bottom: solid 2px yellow;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-coupon{
+    flex: 1;
+    width: 70%;
+    order: 1;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-shipping{
+    flex: 1;
+    width: 60%;
+    order: 4;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-delivery{
+    flex: 1;
+    width: 100%;
+    order: 1;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-discount {
+    flex: 1;
+    width: 90%;
+    order: 2;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: 70%;
+    XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+    XXbackground-color: limegreen;
+    XXXborder-radius: 5px;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-icon:hover {
+    background-size: 70%;
+    cursor: pointer;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium {
+    -moz-box-sizing: border-box;
+    width: 90%;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-medium:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-text {
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    padding-top: 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    XXXbackground-color: orange;
+    text-align: left;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-small {
+    display: inline-block;
+    XXXmargin: 6px;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    color: var(--sp-adverty-bridge-color-light-level-1);
+    background-color: var(--sp-adverty-bridge-color-dark-level-2);
+    cursor: pointer;
+    XXXbackground-color: orange;
+}
+
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-small:hover {
+    transform: scale(0.8);
+    background-color: grey;
+}
+
+/*
+.sp-adverty-rounded__mobile .sp-adverty-rounded__mobile-button-small:hover + .sp-adverty-rounded__mobile {
+    background-color: red;
+    animation: spAdvertyBridgeMoveEnter 10s ease-in-out infinite;
+}
+*/
+
+/*
+@keyframes spAdvertyBridgeMoveEnter {
+    0% {
+        top: -360px; 
+    }
+
+    5% {
+        top: 360px;
+    }
+
+    10% {
+        top: 330px;
+    }
+
+    15% {
+        top: 360px;
+    }
+
+    90% {
+        top: 360px;
+    }
+
+    100% {
+        top: 340px;
+    }
+}
+*/
+
+/*
+@keyframes spAdvertyBridgeMoveExit {
+    0% {
+        top: 340px;
+    }
+
+    25% {
+        top: 360px;
+    }
+
+    50% {
+        top: 320px;
+    }
+
+    75% {
+        top: 340px;
+    }
+
+    100% {
+        top: -360px;
+    }
+}
+*/
+
+/* POPUP 30 SEGUNDOS */
+/*
+@keyframes spAdvertyBridgeMoveEnterExit {
+    
+    0% {
+        top: -640px; 
+    }
+
+    10% {
+        top: -640px;
+    }
+
+    12% {
+        top: 360px; 
+    }   
+
+    14% {
+        top: 320px; 
+    }
+
+    16% {
+        top: 340px; 
+    }
+
+    90% {
+        top: 340px; 
+    }
+
+    92% {
+        top: 360px;
+    }
+
+    94% {
+        top: 320px; 
+    }
+
+    96% {
+        top: 340px; 
+    }
+
+    98% {
+        top: -640px; 
+    }
+
+    100% {
+        top: -640px; 
+    }
+}
+*/

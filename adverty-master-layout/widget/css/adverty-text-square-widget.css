@@ -1,0 +1,467 @@
+:root {
+    /*adverty*/
+    --sp-adverty-square-text-color: #FFF;
+    /* dark */
+    --sp-adverty-square-color-dark-level-1: #0d1b2a;
+    --sp-adverty-square-color-dark-level-2: #1b263b;
+    --sp-adverty-square-color-dark-level-3: #415a77;
+    --sp-adverty-square-color-dark-level-4: #778da9;
+    --sp-adverty-square-color-dark-level-5: #e0e1dd;
+    --sp-adverty-square-color-dark-level-6: #f2f3f3;
+    /* light */
+    --sp-adverty-square-color-light-level-1: #ffffff;
+    --sp-adverty-square-color-light-level-2: #f5f5f5;
+    --sp-adverty-square-color-light-level-3: #e8e8e8;
+    --sp-adverty-square-color-light-level-4: #dcdcdc;
+    --sp-adverty-square-color-light-level-5: #d3d3d3;
+    --sp-adverty-square-color-light-level-6: #c8c8c8;
+
+    --sp-adverty-square-larger-height: 140px;
+    --sp-adverty-square-small-height: 40px;
+
+    --sp-var-deck-color-surface: #212529;
+    --sp-var-deck-color-accent: #7209b7;
+    --sp-var-deck-color-highlight: #a7c957;
+}
+.sp-adverty-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    XXXposition: fixed;
+    XXXtop: 0px;
+    XXXleft: 0px;
+    background-color: var(--sp-var-deck-color-highlight);
+    color: var(--sp-adverty-square-text-color);
+    gap: 0;
+    overflow: hidden;
+    z-index: 3010;
+    XXXborder: solid 3px blue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sp-adverty-square-open {
+    animation: spAdvertyBridgeMoveEnter 10s ease;
+}
+
+.sp-adverty-square-close {
+    XXXbackground-color: white;
+    animation: spAdvertyBridgeMoveExit 2s ease;
+}
+
+.sp-adverty-square-open-close {
+    animation: spAdvertyBridgeMoveEnterExit 30s ease infinite;
+}
+
+
+.sp-adverty-square>* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: var(--sp-adverty-square-text-color);
+}
+
+.sp-adverty-square .sp-adverty-square-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0 solid #ccc;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    XXXposition: relative;
+    XXXbackground-color: var(--sp-var-deck-color-highlight);
+    XXXbackground-color: yellow;
+}
+
+.sp-adverty-square .sp-adverty-square-header,
+.sp-adverty-square .sp-adverty-square-button-small {
+    display: none;
+}
+
+
+.sp-adverty-square .sp-adverty-square-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    XXXheight: var(--sp-adverty-square-larger-height);
+    text-align: center;
+    overflow: hidden;
+    max-height: 100px;
+    XXXborder-right: solid 1px red;
+    XXXbackground-color: yellow;
+    overflow: hidden;
+}
+
+.sp-adverty-square .sp-adverty-square-coupon,
+.sp-adverty-square .sp-adverty-square-shipping,
+.sp-adverty-square .sp-adverty-square-delivery,
+.sp-adverty-square .sp-adverty-square-discount {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    XXXwidth: 100%;
+}
+
+.sp-adverty-square .sp-adverty-square-button-medium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 90%;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: var(--sp-adverty-square-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+    cursor: pointer;
+}
+
+.sp-adverty-square .sp-adverty-square-button-medium:hover {
+    text-decoration: none;
+    border-radius: 75px;
+    padding: 2px 4px;
+    transform: scalex(1.1);
+}
+
+.sp-adverty-square .sp-adverty-square-button-medium:link,
+.sp-adverty-square .sp-adverty-square-button-medium:visited,
+.sp-adverty-square .sp-adverty-square-button-medium:active {
+    text-decoration: none;
+    color: var(--sp-adverty-square-text-color);
+    background-color: var(--sp-var-deck-color-accent);
+}
+
+.sp-adverty-square .sp-adverty-square-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/icon-default.svg?v11');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+.sp-adverty-square .sp-adverty-square-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    XXXwidth: 100%;
+    height: 36px;
+    XXXpadding-top: 6px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*ICONS*/
+.sp-adverty-square .sp-adverty-square-icon-cash {
+    background-image: url('../images/icon-cash.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-square .sp-adverty-square-icon-localization {
+    background-image: url('../images/icon-localization.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-square .sp-adverty-square-icon-tag {
+    background-image: url('../images/icon-tag.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-square .sp-adverty-square-icon-ticket {
+    background-image: url('../images/icon-ticket.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-square .sp-adverty-square-icon-truck {
+    background-image: url('../images/icon-truck.svg?v11');
+    filter: invert(55%) sepia(100%) saturate(500%) hue-rotate(70deg);
+}
+
+.sp-adverty-square .sp-adverty-square-icon-close {
+    display: inline-block;
+    flex: 1;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/icon-close.svg?v12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+/*
+@media (min-width: 601px) and (max-width: 800px) {
+
+    .sp-adverty-square .sp-adverty-square-icon {
+        XXXdisplay: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .sp-adverty-square {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 320px;
+        height: 320px;
+        position: fixed;
+        XXXtop: -340px;
+        top: 200px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+        /* animation: spAdvertyBridgeMoveEnter 8s ease-in-out forwards; */
+        /* animation: spAdvertyBridgeMoveEnter 10s ease-in-out infinite; */
+    }
+
+    /*
+    .sp-adverty-square .sp-adverty-square-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 320px;
+        height: 320px;
+        position: relative;
+        overflow: hidden;
+        padding: 6px;
+        XXXborder-radius: 50%;
+        XXXbackground: red;
+        XXXborder: solid 1px red;
+    }
+
+    .sp-adverty-square .sp-adverty-square-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+        XXtop: 5px;
+        XXright: 10px;
+        width: 95%;
+        height: 30px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        XXXbackground-color: black;
+        border-radius: 20px;
+        text-align: right;
+    }
+
+    .sp-adverty-square .sp-adverty-square-row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        XXXheight: var(--sp-adverty-square-small-height);
+        XXXmax-height: 80px;
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        XXXborder-bottom: solid 2px yellow;
+    }
+
+    .sp-adverty-square .sp-adverty-square-coupon{
+        flex: 1;
+        width: 100%;
+        order: 1;
+    }
+
+    .sp-adverty-square .sp-adverty-square-shipping{
+        flex: 1;
+        width: 100%;
+        order: 4;
+    }
+
+    .sp-adverty-square .sp-adverty-square-delivery{
+        flex: 1;
+        width: 100%;
+        order: 1;
+    }
+
+    .sp-adverty-square .sp-adverty-square-discount {
+        flex: 1;
+        width: 100%;
+        order: 2;
+    }
+
+    .sp-adverty-square .sp-adverty-square-icon {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background-size: 70%;
+        XXXfilter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+        XXbackground-color: limegreen;
+        XXXborder-radius: 5px;
+    }
+
+    .sp-adverty-square .sp-adverty-square-icon:hover {
+        background-size: 80%;
+        cursor: pointer;
+    }
+
+    .sp-adverty-square .sp-adverty-square-button-medium {
+        -moz-box-sizing: border-box;
+        width: 90%;
+    }
+
+    .sp-adverty-square .sp-adverty-square-button-medium:hover {
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+
+    .sp-adverty-square .sp-adverty-square-text {
+        display: inline-block;
+        width: 170px;
+        height: 36px;
+        padding-top: 10px;
+        vertical-align: middle;
+        XXXbackground-color: orange;
+        text-align: left;
+    }
+
+    .sp-adverty-square .sp-adverty-square-button-small {
+        display: inline-block;
+        XXXmargin: 6px;
+        height: 30px;
+        width: 30px;
+        padding: 6px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 25px;
+        transition: background-color 0.3s ease;
+        color: var(--sp-adverty-square-color-light-level-1);
+        background-color: var(--sp-adverty-square-color-dark-level-2);
+        cursor: pointer;
+        XXXbackground-color: orange;
+    }
+
+    .sp-adverty-square .sp-adverty-square-button-small:hover {
+        transform: scale(0.8);
+        background-color: grey;
+    }
+
+    /*
+    .sp-adverty-square .sp-adverty-square-button-small:hover + .sp-adverty-square {
+        background-color: red;
+        animation: spAdvertyBridgeMoveEnter 10s ease-in-out infinite;
+    }
+    */
+
+    /*
+    @keyframes spAdvertyBridgeMoveEnter {
+        0% {
+            top: -360px; 
+        }
+
+        5% {
+            top: 360px;
+        }
+
+        10% {
+            top: 330px;
+        }
+
+        15% {
+            top: 360px;
+        }
+
+        90% {
+            top: 360px;
+        }
+
+        100% {
+            top: 340px;
+        }
+    }
+
+    @keyframes spAdvertyBridgeMoveExit {
+        0% {
+            top: 340px;
+        }
+
+        25% {
+            top: 360px;
+        }
+
+        50% {
+            top: 320px;
+        }
+
+        75% {
+            top: 340px;
+        }
+
+        100% {
+            top: -360px;
+        }
+    }
+
+    /* POPUP 30 SEGUNDOS */
+    /*
+    @keyframes spAdvertyBridgeMoveEnterExit {
+
+        0% {
+            top: -640px; 
+        }
+
+        10% {
+            top: -640px; 
+        }
+
+        12% {
+            top: 360px; 
+        }   
+
+        14% {
+            top: 320px; 
+        }
+
+        16% {
+            top: 340px; 
+        }
+
+        90% {
+            top: 340px; 
+        }
+
+        92% {
+            top: 360px; 
+        }
+
+        94% {
+            top: 320px; 
+        }
+
+        96% {
+            top: 340px; 
+        }
+
+        98% {
+            top: -640px;
+        }
+
+        100% {
+            top: -640px; 
+        }
+    }
+}

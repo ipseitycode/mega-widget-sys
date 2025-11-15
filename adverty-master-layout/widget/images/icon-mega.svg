@@ -1,0 +1,10 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+        .oswald {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500; /* Define o peso da fonte como Medium (500) */
+        }
+    </style>
+    <text x="10" y="50" class="oswald" font-size="48" fill="black">MEGA</text>
+</svg>
