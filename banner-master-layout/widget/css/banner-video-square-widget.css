@@ -1,0 +1,525 @@
+/*SMALL*/
+.sp-banner-video-square__small {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    color: greenyellow;
+    text-align: center; 
+    padding: 0px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    overflow: hidden;
+    border-radius: 32px;
+    font-family: "Raleway Regular", Arial, sans-serif;
+}
+
+.sp-banner-video-square__small * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-area__small {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* text */
+.sp-banner-video-square__small .sp-banner-video-square-headline {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    font-family: "Raleway Black", Arial, sans-serif;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-title {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-subtitle {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: light;
+    color: white;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-body{
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-caption {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-price-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    z-index: 1;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-price {
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    vertical-align: top;
+    letter-spacing: -0.2rem;
+    color: white;
+    font-family: "Raleway Black", Arial, sans-serif;
+    overflow: hidden;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-coin {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+    color: white;
+    margin-right: 8px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-cents {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: light;
+    color: white;
+}
+
+/* ROW */
+.sp-banner-video-square__small .sp-banner-video-square-row__xxsmall,
+.sp-banner-video-square__small .sp-banner-video-square-row__xsmall,
+.sp-banner-video-square__small .sp-banner-video-square-row__small,
+.sp-banner-video-square__small .sp-banner-video-square-row__medium,
+.sp-banner-video-square__small .sp-banner-video-square-row__large,
+.sp-banner-video-square__small .sp-banner-video-square-row__xlarge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    word-wrap: 100%;
+    min-height: 32px;
+    overflow: hidden;
+    padding-right: 12px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__xxsmall {
+    height: 32px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__xsmall {
+    height: 48px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__small {
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__medium {
+    height: 96px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__large {
+    height: 160px;
+    XXXbackground-color: blueviolet;
+    border-bottom: red solid 1px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__xlarge {
+    height: 192px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square-row__xxlarge {
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    width: 320px;
+}
+
+.sp-banner-video-square__small .sp-banner-video-square__video {
+
+}
+
+.sp-banner-video-square__small .sp-banner-video-square__image {
+
+}
+
+/*MEDIUM*/
+.sp-banner-video-square__medium {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    color: greenyellow;
+    text-align: center; 
+    padding: 0px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    overflow: hidden;
+    border-radius: 32px;
+    font-family: "Raleway Regular", Arial, sans-serif;
+}
+
+.sp-banner-video-square__medium * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-area__medium {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* text */
+.sp-banner-video-square__medium .sp-banner-video-square-headline {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    font-family: "Raleway Black", Arial, sans-serif;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-title {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-subtitle {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: light;
+    color: white;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-body{
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-caption {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+}
+.sp-banner-video-square__medium .sp-banner-video-square-price-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    z-index: 1;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-price {
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    vertical-align: top;
+    letter-spacing: -0.2rem;
+    color: white;
+    font-family: "Raleway Black", Arial, sans-serif;
+    overflow: hidden;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-coin {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+    color: white;
+    margin-right: 8px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-cents {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: light;
+    color: white;
+}
+
+/* ROW */
+.sp-banner-video-square__medium .sp-banner-video-square-row__xxsmall,
+.sp-banner-video-square__medium .sp-banner-video-square-row__xsmall,
+.sp-banner-video-square__medium .sp-banner-video-square-row__small,
+.sp-banner-video-square__medium .sp-banner-video-square-row__medium,
+.sp-banner-video-square__medium .sp-banner-video-square-row__large,
+.sp-banner-video-square__medium .sp-banner-video-square-row__xlarge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    word-wrap: 100%;
+    min-height: 32px;
+    overflow: hidden;
+    padding-right: 12px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__xxsmall {
+    height: 32px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__xsmall {
+    height: 48px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__small {
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__medium {
+    height: 96px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__large {
+    height: 160px;
+    XXXbackground-color: blueviolet;
+    border-bottom: red solid 1px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__xlarge {
+    height: 192px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square-row__xxlarge {
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    width: 320px;
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square__video {
+
+}
+
+.sp-banner-video-square__medium .sp-banner-video-square__image {
+
+}
+
+/*LARGER*/
+.sp-banner-video-square__larger {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    color: greenyellow;
+    text-align: center; 
+    padding: 0px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    overflow: hidden;
+    border-radius: 32px;
+    font-family: "Raleway Regular", Arial, sans-serif;
+}
+
+.sp-banner-video-square__larger * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-area__larger {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* text */
+.sp-banner-video-square__larger .sp-banner-video-square-headline {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    font-family: "Raleway Black", Arial, sans-serif;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-title {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-subtitle {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: light;
+    color: white;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-body{
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-caption {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+}
+.sp-banner-video-square__larger .sp-banner-video-square-price-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    z-index: 1;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-price {
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    vertical-align: top;
+    letter-spacing: -0.2rem;
+    color: white;
+    font-family: "Raleway Black", Arial, sans-serif;
+    overflow: hidden;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-coin {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+    color: white;
+    margin-right: 8px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-cents {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: light;
+    color: white;
+}
+
+/* ROW */
+.sp-banner-video-square__larger .sp-banner-video-square-row__xxsmall,
+.sp-banner-video-square__larger .sp-banner-video-square-row__xsmall,
+.sp-banner-video-square__larger .sp-banner-video-square-row__small,
+.sp-banner-video-square__larger .sp-banner-video-square-row__medium,
+.sp-banner-video-square__larger .sp-banner-video-square-row__large,
+.sp-banner-video-square__larger .sp-banner-video-square-row__xlarge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    word-wrap: 100%;
+    min-height: 32px;
+    overflow: hidden;
+    padding-right: 12px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__xxsmall {
+    height: 32px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__xsmall {
+    height: 48px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__small {
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__medium {
+    height: 96px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__large {
+    height: 160px;
+    XXXbackground-color: blueviolet;
+    border-bottom: red solid 1px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__xlarge {
+    height: 192px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square-row__xxlarge {
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+    width: 320px;
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square__video {
+
+}
+
+.sp-banner-video-square__larger .sp-banner-video-square__image {
+
+}
