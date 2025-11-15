@@ -1,0 +1,353 @@
+.sp-textcard-tower-small {
+    display: grid;
+    width: 256px; 
+    height: 482px;
+    margin-top: 32px; 
+    border-radius: 24px;
+    overflow: hidden;
+} 
+  
+.sp-textcard-tower-small__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-small__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-tower-small__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-tower-small__header img {
+    
+}
+
+.sp-textcard-tower-small__body {
+    width: 100%;
+    height: 344px;
+    margin: 0;
+    overflow: scroll;
+}
+
+.sp-textcard-tower-small__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-small__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-small__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-small:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-tower-small:focus {
+    outline: 0;
+}
+
+.sp-textcard-tower-small:active {
+    border-color: #003768;
+}
+
+.sp-textcard-tower-small.disabled,
+.sp-textcard-tower-small:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-textcard-tower-small .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-tower-small .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-textcard-tower-medium {
+    display: grid;
+    width: 384px;
+    height: 576px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-medium__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-medium__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-tower-medium__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-tower-medium__header img {
+    
+}
+
+.sp-textcard-tower-medium__body {
+    width: 100%;
+    height: 457px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-textcard-tower-medium__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-medium__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-medium__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-medium:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-tower-medium:focus {
+    outline: 0;
+}
+
+.sp-textcard-tower-medium:active {
+    border-color: #003768;
+}
+
+.sp-textcard-tower-medium.disabled,
+.sp-textcard-tower-medium:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-textcard-tower-medium .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-tower-medium .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-textcard-tower-larger {
+    display: grid;
+    width: 512px;
+    height: 800px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-larger__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-larger__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-tower-larger__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-tower-larger__header img {
+    
+}
+
+.sp-textcard-tower-larger__body {
+    width: 100%;
+    height: 681px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-textcard-tower-larger__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-tower-larger__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-larger__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-tower-larger:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-tower-larger:focus {
+    outline: 0;
+}
+
+.sp-textcard-tower-larger:active {
+    border-color: #003768;
+}
+
+.sp-textcard-tower-larger.disabled,
+.sp-textcard-tower-larger:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-textcard-tower-larger .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-tower-larger .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media (max-width: 840px)  
+{
+    .sp-textcard-tower-small {
+        width: 192px;
+        height: 256px;
+    }
+
+    .sp-textcard-tower-medium {
+        width: 224px;
+        height: 320px;
+    }
+
+    .sp-textcard-tower-larger {
+        width: 256px;
+        height: 384px;
+    }
+
+    .sp-textcard-tower-small__body {
+        height: 119px;
+    }
+
+    .sp-textcard-tower-medium__body {
+        height: 182px;
+    }
+
+    .sp-textcard-tower-larger__body {
+        height: 246px;
+    }
+
+    .sp-textcard-tower-small__footer {
+        text-align: center;
+    }
+
+    .sp-textcard-tower-medium__footer {
+        text-align: right;
+    }
+
+    .sp-textcard-tower-larger__footer {
+        text-align: right;
+    }
+}

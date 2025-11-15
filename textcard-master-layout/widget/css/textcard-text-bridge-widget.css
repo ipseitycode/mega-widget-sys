@@ -1,0 +1,355 @@
+.sp-textcard-bridge-small {
+    display: grid; 
+    width: 544px;
+    height: 256px; 
+    margin-top: 32px;
+    border-radius: 24px;
+    border: solid 1px transparent;
+    overflow: hidden;
+} 
+ 
+.sp-textcard-bridge-small__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-small__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-bridge-small__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-bridge-small__header img {
+    
+}
+
+.sp-textcard-bridge-small__body {
+    width: 100%;
+    height: 136px;
+    margin: 0;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-textcard-bridge-small__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-small__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-small__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-small:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-bridge-small:focus {
+    outline: 0;
+}
+
+.sp-textcard-bridge-small:active {
+    border-color: #003768;
+}
+
+.sp-textcard-bridge-small.disabled,
+.sp-textcard-bridge-small:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-textcard-bridge-small .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-bridge-small .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-textcard-bridge-medium {
+    display: grid;
+    width: 672px;
+    height: 384px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-medium__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-medium__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-bridge-medium__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-bridge-medium__header img {
+    
+}
+
+.sp-textcard-bridge-medium__body {
+    width: 100%;
+    height: 265px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-textcard-bridge-medium__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-medium__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-medium__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-medium:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-bridge-medium:focus {
+    outline: 0;
+}
+
+.sp-textcard-bridge-medium:active {
+    border-color: #003768;
+}
+
+.sp-textcard-bridge-medium.disabled,
+.sp-textcard-bridge-medium:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-textcard-bridge-medium .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-bridge-medium .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-textcard-bridge-larger {
+    display: grid;
+    width: 800px;
+    height: 512px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-larger__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-larger__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-textcard-bridge-larger__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-textcard-bridge-larger__header img {
+    
+}
+
+.sp-textcard-bridge-larger__body {
+    width: 100%;
+    height: 393px;
+    margin: 0;
+    padding: 8px;
+    margin-bittin: 12px;
+    overflow: scroll;
+}
+
+.sp-textcard-bridge-larger__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-textcard-bridge-larger__footer a {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-larger__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-textcard-bridge-larger:hover {
+    background-color: #;
+    border-color: #707070;
+    text-decoration: none;
+    XXXborder: solid 1px #f2f2f2;
+    opacity: 0.9;
+}
+
+.sp-textcard-bridge-larger:focus {
+    outline: 0;
+}
+
+.sp-textcard-bridge-larger:active {
+    border-color: #003768;
+}
+
+.sp-textcard-bridge-larger.disabled,
+.sp-textcard-bridge-larger:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+
+.sp-textcard-bridge-larger .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-textcard-bridge-larger .shop-text-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media (max-width: 840px)  
+{
+    .sp-textcard-bridge-small {
+        width: 224px;
+        height: 160px;
+    }
+
+    .sp-textcard-bridge-medium {
+        width: 256px;
+        height: 192px;
+    }
+
+    .sp-textcard-bridge-larger {
+        width: 288px;
+        height: 224px;
+    }
+
+    .sp-textcard-bridge-small__body {
+        height: 22px;
+    }
+
+    .sp-textcard-bridge-medium__body {
+        height: 81px;
+    }
+
+    .sp-textcard-bridge-larger__body {
+        height: 113px;
+    }
+
+    .sp-textcard-bridge-small__footer {
+        text-align: center;
+    }
+
+    .sp-textcard-bridge-medium__footer {
+        text-align: right;
+    }
+
+    .sp-textcard-bridge-larger__footer {
+        text-align: right;
+}
