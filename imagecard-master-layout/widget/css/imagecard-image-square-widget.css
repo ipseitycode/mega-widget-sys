@@ -1,0 +1,368 @@
+.sp-imagecard-square-small {
+    display: grid;
+    width: 256px;  
+    height: 256px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-image: url('/ximages/images/pessoas/musica/fone/hr/musica-people-bridge(3).jpg');
+    background-size: cover;
+    background-position: center;
+} 
+ 
+.sp-imagecard-square-small__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-small__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-imagecard-square-small__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-imagecard-square-small__header img {
+    
+}
+
+.sp-imagecard-square-small__body {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 152px;
+    margin: 0;
+    margin-bottom: 12px;
+    overflow: scroll;
+    background: none;
+}
+
+.sp-imagecard-square-small__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-small__footer a {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-small__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-small:hover {
+    background-color: #;
+    XXXborder-color: #707070;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.sp-imagecard-square-small:focus {
+    outline: 0;
+}
+
+.sp-imagecard-square-small:active {
+    border-color: #003768;
+}
+
+.sp-imagecard-square-small.disabled,
+.sp-imagecard-square-small:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-imagecard-square-small .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-imagecard-square-small .shop-image-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-imagecard-square-medium {
+    display: grid;
+    width: 384px;
+    height: 384px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-image: url('/ximages/images/pessoas/musica/fone/hr/musica-people-bridge(4).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sp-imagecard-square-medium__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-medium__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-imagecard-square-medium__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-imagecard-square-medium__header img {
+    
+}
+
+.sp-imagecard-square-medium__body {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 279px;
+    margin: 0;
+    padding: 8px;
+    margin-bottom: 12px;
+    overflow: scroll;
+    background: none;
+}
+
+.sp-imagecard-square-medium__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-medium__footer a {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-medium__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-medium:hover {
+    background-color: #;
+    XXXborder-color: #707070;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.sp-imagecard-square-medium:focus {
+    outline: 0;
+}
+
+.sp-imagecard-square-medium:active {
+    border-color: #003768;
+}
+
+.sp-imagecard-square-medium.disabled,
+.sp-imagecard-square-medium:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-imagecard-square-medium .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-imagecard-square-medium .shop-image-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sp-imagecard-square-larger {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    max-width: 800px;
+    margin-top: 32px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-image: url('/ximages/images/pessoas/musica/fone/hr/musica-people-bridge(1).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sp-imagecard-square-larger__area {
+    grid-row: 1 / -1;
+    margin: 12px;
+    position: relative;
+    min-height: 74px;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-larger__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+    padding-top: 8px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.sp-imagecard-square-larger__header * {
+    padding: 0;
+    magin: 0;
+}
+
+.sp-imagecard-square-larger__header img {
+    
+}
+
+.sp-imagecard-square-larger__body {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 407px;
+    margin: 0;
+    padding: 8px;
+    margin-bottom: 12px;
+    overflow: scroll;
+    background: none;
+}
+
+.sp-imagecard-square-larger__footer {
+    text-align: right;
+    width: 100%;
+    min-height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.sp-imagecard-square-larger__footer a {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-larger__footer a:hover {
+    text-decoration: none;
+}
+
+.sp-imagecard-square-larger:hover {
+    background-color: #;
+    XXXXXXborder-color: #707070;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.sp-imagecard-square-larger:focus {
+    outline: 0;
+}
+
+.sp-imagecard-square-larger:active {
+    border-color: #003768;
+}
+
+.sp-imagecard-square-larger.disabled,
+.sp-imagecard-square-larger:disabled {
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.sp-imagecard-square-larger .shop-icon-medium {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sp-imagecard-square-larger .shop-image-body {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media (max-width: 840px)  
+{
+    .sp-imagecard-square-small {
+        width: 192px;
+        height: 192px;
+    }
+
+    .sp-imagecard-square-medium {
+        width: 224px;
+        height: 224px;
+    }
+
+    .sp-imagecard-square-larger {
+        width: 256px;
+        height: 256px;
+    }
+
+    .sp-imagecard-square-small__body {
+        height: 95px;
+    }
+
+    .sp-imagecard-square-medium__body {
+        height: 126px;
+    }
+
+    .sp-imagecard-square-larger__body {
+        height: 158px;
+    }
+
+    .sp-imagecard-square-small__footer {
+        text-align: right;
+    }
+
+    .sp-imagecard-square-medium__footer {
+        text-align: right;
+    }
+
+    .sp-imagecard-square-larger__footer {
+        text-align: right;
+}
