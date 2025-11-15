@@ -1,0 +1,126 @@
+/* large NORMAL */
+
+.sp-text-large-regular__headline {
+    display: inline-block;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: normal;
+}
+
+.sp-text-large-regular__title {
+    display: inline-block;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: normal;
+}
+
+.sp-text-large-regular__subtitle {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: normal;
+}
+
+.sp-text-large-regular__body {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: normal;
+}
+
+.sp-text-large-regular__caption {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 2rem;
+    line-height:2rem;
+    font-weight: normal;
+}
+
+/* large LIGHT */
+
+.sp-text-large-light__headline {
+    display: inline-block;
+    font-family: "Raleway Light", Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: light;
+}
+
+.sp-text-large-light__title {
+    display: inline-block;
+    font-family: "Raleway Light", Arial, sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: light;
+}
+
+.sp-text-large-light__subtitle {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: light;
+}
+
+.sp-text-large-light__body {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: light;
+}
+
+.sp-text-large-light__caption {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: light;
+}
+
+/* large BLACK */
+
+.sp-text-large-black__headline {
+    display: inline-block;
+    font-family: "Raleway Black", Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: bold;
+}
+
+.sp-text-large-black__title {
+    display: inline-block;
+    font-family: "Raleway Black", Arial, sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.sp-text-large-black__subtitle {
+    font-family: "Raleway Black", Arial, sans-serif;
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.sp-text-large-black__body {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.sp-text-large-black__caption {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+

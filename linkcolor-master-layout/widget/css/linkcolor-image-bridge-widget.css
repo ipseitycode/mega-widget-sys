@@ -1,0 +1,306 @@
+/* SMALL NORMAL */
+
+.sp-text-small-regular__headline {
+    display: inline-block;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: normal;
+}
+
+.sp-text-small-regular__title {
+    display: inline-block;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: normal;
+}
+
+.sp-text-small-regular__subtitle {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+}
+
+.sp-text-small-regular__body {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+}
+
+.sp-text-small-regular__caption {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: normal;
+}
+
+/* SMALL LIGHT */
+
+.sp-text-small-light__headline {
+    display: inline-block;
+    font-family: "Raleway Light", Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: light;
+}
+
+.sp-text-small-light__title {
+    display: inline-block;
+    font-family: "Raleway Light", Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: light;
+}
+
+.sp-text-small-light__subtitle {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: light;
+}
+
+.sp-text-small-light__body {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: light;
+}
+
+.sp-text-small-light__caption {
+    font-family: "Raleway Light", Arial, sans-serif;
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: light;
+}
+
+/* SMALL BLACK */
+
+.sp-text-small-black__headline {
+    display: inline-block;
+    font-family: "Raleway Black", Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.sp-text-small-black__title {
+    display: inline-block;
+    font-family: "Raleway Black", Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.sp-text-small-black__subtitle {
+    font-family: "Raleway Black", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+.sp-text-small-black__body {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.sp-text-small-black__caption {
+    font-family: "Raleway Regular", Arial, sans-serif;
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: bold;
+}
+
+/* color common */
+.sp-text-color-primary,
+.sp-text-color-primary:link,
+.sp-text-color-primary:hover,
+.sp-text-color-primary:active,
+.sp-text-color-primary:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-primary);
+}
+
+.sp-text-color-secondary,
+.sp-text-color-secondary:link,
+.sp-text-color-secondary:hover,
+.sp-text-color-secondary:active,
+.sp-text-color-secondary:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-secondary);
+}
+
+.sp-text-color-success,
+.sp-text-color-success:link,
+.sp-text-color-success:hover,
+.sp-text-color-success:active,
+.sp-text-color-success:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-success);
+}
+
+.sp-text-color-danger,
+.sp-text-color-danger:link,
+.sp-text-color-danger:hover,
+.sp-text-color-danger:active,
+.sp-text-color-danger:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-danger);
+}
+
+.sp-text-color-warning,
+.sp-text-color-warning:link,
+.sp-text-color-warning:hover,
+.sp-text-color-warning:active,
+.sp-text-color-warning:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-warning);
+}
+
+.sp-text-color-info,
+.sp-text-color-info:link,
+.sp-text-color-info:hover,
+.sp-text-color-info:active,
+.sp-text-color-info:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-info);
+}
+
+.sp-text-color-light,
+.sp-text-color-light:link,
+.sp-text-color-light:hover,
+.sp-text-color-light:active,
+.sp-text-color-light:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-light);
+}
+
+.sp-text-color-dark,
+.sp-text-color-dark:link,
+.sp-text-color-dark:hover,
+.sp-text-color-dark:active,
+.sp-text-color-dark:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-dark);
+}
+
+.sp-text-color-body,
+.sp-text-color-body:link,
+.sp-text-color-body:hover,
+.sp-text-color-body:active,
+.sp-text-color-body:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-body);
+}
+
+.sp-text-color-muted,
+.sp-text-color-muted:link,
+.sp-text-color-muted:hover,
+.sp-text-color-muted:active,
+.sp-text-color-muted:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-muted);
+}
+
+.sp-text-color-white,
+.sp-text-color-white:link,
+.sp-text-color-white:hover,
+.sp-text-color-white:active,
+.sp-text-color-white:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-white);
+}
+
+.sp-text-color-black-50,
+.sp-text-color-black-50:link,
+.sp-text-color-black-50:hover,
+.sp-text-color-black-50:active,
+.sp-text-color-black-50:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-black-50);
+}
+
+.sp-text-color-white-50,
+.sp-text-color-white-50:link,
+.sp-text-color-white-50:hover,
+.sp-text-color-white-50:active,
+.sp-text-color-white-50:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-white-50);
+}
+
+.sp-text-color-surface,
+.sp-text-color-surface:link,
+.sp-text-color-surface:hover,
+.sp-text-color-surface:active,
+.sp-text-color-surface:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-surface);
+}
+
+.sp-text-color-accent,
+.sp-text-color-accent:link,
+.sp-text-color-accent:hover,
+.sp-text-color-accent:active,
+.sp-text-color-accent:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-accent);
+}
+
+.sp-text-color-deffered,
+.sp-text-color-deffered:link,
+.sp-text-color-deffered:hover,
+.sp-text-color-deffered:active,
+.sp-text-color-deffered:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-deffered);
+}
+
+.sp-text-color-radiance,
+.sp-text-color-radiance:link,
+.sp-text-color-radiance:hover,
+.sp-text-color-radiance:active,
+.sp-text-color-radiance:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-radiance);
+}
+
+.sp-text-color-highlight,
+.sp-text-color-highlight:link,
+.sp-text-color-highlight:hover,
+.sp-text-color-highlight:active,
+.sp-text-color-highlight:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-highlight);
+}
+
+.sp-text-color-emphasis,
+.sp-text-color-emphasis:link,
+.sp-text-color-emphasis:hover,
+.sp-text-color-emphasis:active,
+.sp-text-color-emphasis:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-emphasis);
+}
+
+.sp-text-color-velvety,
+.sp-text-color-velvety:link,
+.sp-text-color-velvety:hover,
+.sp-text-color-velvety:active,
+.sp-text-color-velvety:visited {
+    text-decoration: none;
+    color: var(--sp-var-color-velvety);
+}
