@@ -1,0 +1,171 @@
+/* small */
+.sp-gallery-image-square-small {
+    width: 416px; 
+    height: 448px;
+    padding: 16px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: start; 
+    text-align: left;  
+    margin-bottom: 32px;
+    margin-right: 32px;
+    overflow: hidden;
+    border-radius: 24px;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+}   
+
+.sp-gallery-image-square-small * {
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.sp-gallery-image-square-small .sp-gallery-image-square-small__area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.sp-gallery-image-square-small .sp-gallery-image-square-small__header,
+.sp-gallery-image-square-small .sp-gallery-image-square-small__body,
+.sp-gallery-image-square-small .sp-gallery-image-square-small__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0; 
+}
+
+.sp-gallery-image-square-small .sp-gallery-image-square-small__header {
+    height: 0px;
+}
+
+.sp-gallery-image-square-small .sp-gallery-image-square-small__body {
+    height: 320px;
+    width: 320px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-gallery-image-square-small .sp-gallery-image-square-small__footer {
+    padding-left: 10px;
+    margin-top: 14px;
+    height: 176px;
+    flex-direction: row;
+}
+
+.sp-gallery-image-square-small__gallery-more {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f4ff; 
+    font-size: 32px;
+    font-weight: bold;  
+    border-radius: 16px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;  
+    border: 1px solid #d4d9e6;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.sp-gallery-image-square-small__gallery-more:hover { 
+    border: 1px solid #0D6EFD;
+}
+
+/* medium */
+.sp-gallery-image-square-medium {
+    width: 560px; 
+    height: 624px;
+    padding: 16px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: start; 
+    text-align: left;  
+    margin-bottom: 32px;
+    margin-right: 32px;
+    overflow: hidden;
+    border-radius: 24px;
+    font-family: "Raleway Regular", Arial, sans-serif;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+}   
+
+.sp-gallery-image-square-medium * {
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__header,
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__body,
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0; 
+}
+
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__header {
+    height: 0px;
+}
+
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__body {
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-gallery-image-square-medium .sp-gallery-image-square-medium__footer {
+    padding-left: 10px;
+    margin-top: 16px;
+    height: 172px;
+    flex-direction: row;
+}
+
+.sp-gallery-image-square-medium__gallery-more {
+    width: 160px;
+    height: 160px;
+    background-color: #f0f4ff; 
+    font-size: 32px;
+    font-weight: bold;  
+    border-radius: 16px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;  
+    border: 1px solid #d4d9e6;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.sp-gallery-image-square-medium__gallery-more:hover { 
+    border: 1px solid #0D6EFD;
+}
+
+@media (max-width: 768px) {
+
+}
