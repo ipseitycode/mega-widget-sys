@@ -1,0 +1,289 @@
+/* SMALL */
+.sp-buttongroup-small__buttongroup {
+  display: flex;
+}
+
+.sp-buttongroup-small__buttongroup__area {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-buttongroup-small__buttongroup__header {
+  display: none;
+}
+
+.sp-buttongroup-small__buttongroup__title {
+  display: none;
+}
+
+.sp-buttongroup-small__buttongroup__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sp-buttongroup-small__buttongroup__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+} 
+
+.sp-buttongroup-small__buttongroup__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0d6efd;
+  background-color: #ffffff;
+  border: 1px solid #0d6efd;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  position: relative;
+}
+
+.sp-buttongroup-small__buttongroup__label:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sp-buttongroup-small__buttongroup__label:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sp-buttongroup-small__buttongroup__label:not(:first-of-type) {
+  margin-left: -1px;
+}
+
+.sp-buttongroup-small__buttongroup__label:hover {
+  color: #ffffff;
+  background-color: #0d6efd;
+  z-index: 1;
+}
+
+.sp-buttongroup-small__buttongroup__input:checked + .sp-buttongroup-small__buttongroup__label {
+  color: #ffffff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  z-index: 2;
+}
+
+.sp-buttongroup-small__buttongroup__input:focus-visible + .sp-buttongroup-small__buttongroup__label {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+  z-index: 3;
+}
+
+
+/* MEDIUM */
+.sp-buttongroup-medium__buttongroup {
+  display: flex;
+}
+
+.sp-buttongroup-medium__buttongroup__area {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-buttongroup-medium__buttongroup__header {
+  display: none;
+}
+
+.sp-buttongroup-medium__buttongroup__title {
+  display: none;
+}
+
+.sp-buttongroup-medium__buttongroup__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sp-buttongroup-medium__buttongroup__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sp-buttongroup-medium__buttongroup__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fd0d0d;
+  background-color: #ffffff;
+  border: 1px solid #fd0d0d;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  position: relative;
+}
+
+.sp-buttongroup-medium__buttongroup__label:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sp-buttongroup-medium__buttongroup__label:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sp-buttongroup-medium__buttongroup__label:not(:first-of-type) {
+  margin-left: -1px;
+}
+
+.sp-buttongroup-medium__buttongroup__label:hover {
+  color: #ffffff;
+  background-color: #fd0d0d;
+  z-index: 1;
+}
+
+.sp-buttongroup-medium__buttongroup__input:checked + .sp-buttongroup-medium__buttongroup__label {
+  color: #ffffff;
+  background-color: #fd0d0d;
+  border-color: #fd0d0d;
+  z-index: 2;
+}
+
+.sp-buttongroup-medium__buttongroup__input:focus-visible + .sp-buttongroup-medium__buttongroup__label {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+  z-index: 3;
+}
+
+/* LARGE */
+.sp-buttongroup-large__buttongroup {
+  display: flex;
+}
+
+.sp-buttongroup-large__buttongroup__area {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-buttongroup-large__buttongroup__header {
+  display: none;
+}
+
+.sp-buttongroup-large__buttongroup__title {
+  display: none;
+}
+
+.sp-buttongroup-large__buttongroup__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sp-buttongroup-large__buttongroup__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sp-buttongroup-large__buttongroup__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  font-family: inherit;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #0dfd0d;
+  background-color: #000000;
+  border: 1px solid #0dfd0d;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  position: relative;
+}
+
+.sp-buttongroup-large__buttongroup__label:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sp-buttongroup-large__buttongroup__label:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sp-buttongroup-large__buttongroup__label:not(:first-of-type) {
+  margin-left: -1px;
+}
+
+.sp-buttongroup-large__buttongroup__label:hover {
+  color: #000000;
+  background-color: #0dfd0d;
+  z-index: 1;
+}
+
+.sp-buttongroup-large__buttongroup__input:checked + .sp-buttongroup-large__buttongroup__label {
+  color: #000000;
+  background-color: #0dfd0d;
+  border-color: #0dfd0d;
+  z-index: 2;
+}
+
+.sp-buttongroup-large__buttongroup__input:focus-visible + .sp-buttongroup-large__buttongroup__label {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+  z-index: 3;
+}
+
+@media (max-width: 1152px) {
+  .sp-buttongroup-small__buttongroup__label {
+    padding: 6px 16px;
+    font-size: 16px;
+  } 
+
+  .sp-buttongroup-medium__buttongroup__label {
+    padding: 8px 18px;
+    font-size: 18px;
+  } 
+
+  .sp-buttongroup-large__buttongroup__label {
+    padding: 12px 24px;
+    font-size: 22px;
+  } 
+}
+
+@media (max-width: 832px) {
+  .sp-buttongroup-small__buttongroup__label {
+    padding: 4px 12px;
+    font-size: 14px;
+  }
+
+  .sp-buttongroup-medium__buttongroup__label {
+    padding: 6px 16px;
+    font-size: 14px;
+  }
+
+  .sp-buttongroup-large__buttongroup__label {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
