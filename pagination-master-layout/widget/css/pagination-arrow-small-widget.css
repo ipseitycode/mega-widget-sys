@@ -1,0 +1,126 @@
+.sp-pagination-arrow-small__pagination {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  XXXborder: solid 1px red;
+}
+
+.sp-pagination-arrow-small__pagination * {
+  XXXborder: solid 1px red;
+}
+
+.sp-pagination-arrow-small__pagination__area {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sp-pagination-arrow-small__pagination__header {
+  display: none;
+}
+
+.sp-pagination-arrow-small__pagination__nav {
+  display: flex;
+}
+
+.sp-pagination-arrow-small__pagination__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  align-items: center;
+}
+
+.sp-pagination-arrow-small__pagination__item {
+  display: flex;
+}
+
+.sp-pagination-arrow-small__pagination__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 0px;
+  border: 1px solid #E5E7EB;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sp-pagination-arrow-small__pagination__button:hover {
+  background-color: #F3F4F6;
+  border-color: #D1D5DB;
+}
+
+.sp-pagination-arrow-small__pagination__button--active {
+  background-color: #0080ff;
+  color: #FFFFFF;
+  border-color: #0080ff;
+}
+
+.sp-pagination-arrow-small__pagination__button--active:hover {
+  background-color: #006edc;
+  border-color: #006edc;
+}
+
+.sp-pagination-arrow-small__pagination__ellipsis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 1152px) {
+  .sp-pagination-arrow-small__pagination {
+    padding: 0px;
+  }
+  .sp-pagination-arrow-small__pagination__area {
+    padding: 6px 12px;
+    border-radius: 0px;
+  }
+  .sp-pagination-arrow-small__pagination__list {
+    gap: 6px;
+  }
+  .sp-pagination-arrow-small__pagination__button,
+  .sp-pagination-arrow-small__pagination__ellipsis {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 832px) {
+  .sp-pagination-arrow-small__pagination {
+    padding: 0px;
+  }
+  .sp-pagination-arrow-small__pagination__area {
+    padding: 4px 8px;
+    border-radius: 0px;
+  }
+  .sp-pagination-arrow-small__pagination__list {
+    gap: 4px;
+  }
+  .sp-pagination-arrow-small__pagination__button,
+  .sp-pagination-arrow-small__pagination__ellipsis {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    border-radius: 0px;
+  }
+}
