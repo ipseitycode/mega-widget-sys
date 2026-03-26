@@ -1,0 +1,210 @@
+.sp-header-bridge-large__header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: inherit;
+    padding: 32px 24px;
+}
+
+.sp-header-bridge-large__header * {
+    XXXborder: solid 1px red;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.sp-header-bridge-large__header__area {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.sp-header-bridge-large__header__header {
+    display: flex;
+    align-items: center;
+}
+
+.sp-header-bridge-large__header__title {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sp-header-bridge-large__header__icon {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.sp-header-bridge-large__header__body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.sp-header-bridge-large__header__nav {
+    display: flex;
+}
+
+.sp-header-bridge-large__header__nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.sp-header-bridge-large__header__nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.sp-header-bridge-large__header__nav-link {
+    display: flex;
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.sp-header-bridge-large__header__nav-link:hover {
+    color: #ffffff;
+}
+
+.sp-header-bridge-large__header__nav-link-active {
+    color: #ffffff;
+}
+
+.sp-header-bridge-large__header__footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sp-header-bridge-large__header__actions {
+    display: flex;
+    gap: 12px;
+}
+
+.sp-header-bridge-large__header__button-login {
+    display: flex;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.2s;
+}
+
+.sp-header-bridge-large__header__button-login:hover {
+    filter: brightness(0.9);
+}
+
+.sp-header-bridge-large__header__button-signup {
+    display: flex;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.2s;
+}
+
+.sp-header-bridge-large__header__button-signup:hover {
+    filter: brightness(0.9);
+}
+
+@media (max-width: 1152px) {
+    .sp-header-bridge-large__header {
+        padding: 32px 20px;
+    }
+
+    .sp-header-bridge-large__header__nav-list {
+        gap: 24px;
+    }
+
+    .sp-header-bridge-large__header__button-login,
+    .sp-header-bridge-large__header__button-signup {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 832px) {
+    .sp-header-bridge-large__header__area {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .sp-header-bridge-large__header__body {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .sp-header-bridge-large__header__nav-list {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sp-header-bridge-large__header__footer {
+        order: 2;
+    }
+
+    .sp-header-bridge-large__header__button-login,
+    .sp-header-bridge-large__header__button-signup {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .sp-header-bridge-large__header__nav-link {
+        font-size: 15px;
+    }
+}
+
+.sp-icon {
+  display: inline-block;
+  min-height: 16px;
+  min-width: 16px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+}
+
+.sp-icon::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-display: block;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /*vertical-align: -.125em;*/
+  vertical-align: -.145em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sp-icon,
+.sp-icon:hover,
+.sp-icon:link,
+.sp-icon:visited,
+.sp-icon:active {
+  text-decoration: none;
+}
