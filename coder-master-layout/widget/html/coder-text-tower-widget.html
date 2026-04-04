@@ -1,0 +1,320 @@
+<p class="text-danger">[sessao1]</p>
+<section class="sp-coder-tab__coder shop-color-warning" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;cubo&quot; id=&quot;cubo&quot;&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: red;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: blue;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: green;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: yellow;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: orange;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: purple;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: cyan;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: pink;&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;cell&quot; style=&quot;background: lime;&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .cubo {
+            display: grid;
+            grid-template-columns: repeat(3, 80px);
+            gap: 5px;
+            }
+
+            .cell {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.2s;
+            }
+
+            .cell:hover {
+            transform: scale(1.1);
+            }
+            
+            .cubo {
+            display: grid;
+            grid-template-columns: repeat(3, 80px);
+            gap: 5px;
+            }
+
+            .cell {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.2s;
+            }
+
+            .cell:hover {
+            transform: scale(1.1);
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    const cores = [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;,&quot;yellow&quot;,&quot;orange&quot;,&quot;purple&quot;,&quot;cyan&quot;,&quot;pink&quot;,&quot;lime&quot;];
+            let estado = [...cores];
+            const cubo = document.getElementById(&quot;cubo&quot;);
+
+            function render() {
+            cubo.innerHTML = &quot;&quot;;
+            estado.forEach((cor, index) =&gt; {
+                const div = document.createElement(&quot;div&quot;);
+                div.classList.add(&quot;cell&quot;);
+                div.style.background = cor;
+                div.onclick = () =&gt; mover(index);
+                cubo.appendChild(div);
+            });
+            }
+
+            function mover(index) {
+            const linha = Math.floor(index / 3);
+            const col = index % 3;
+            if (Math.random() &gt; 0.5) {
+                girarLinha(linha);
+            } else {
+                girarColuna(col);
+            }
+            render();
+            }
+
+            render();
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>
+<p class="text-danger">[sessao2]</p>
+<section class="sp-coder-tab__coder shop-color-light" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;contador&quot;&gt;
+            &lt;button id=&quot;btn-decrementar&quot;&gt;-&lt;/button&gt;
+            &lt;span id=&quot;valor&quot;&gt;0&lt;/span&gt;
+            &lt;button id=&quot;btn-incrementar&quot;&gt;+&lt;/button&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .contador {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            }
+
+            .contador button {
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 50%;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+            }
+
+            .contador button:hover {
+            background: #555;
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    let valor = 0;
+            const span = document.getElementById(&quot;valor&quot;);
+
+            document.getElementById(&quot;btn-incrementar&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+            valor++;
+            span.textContent = valor;
+            });
+
+            document.getElementById(&quot;btn-decrementar&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+            valor--;
+            span.textContent = valor;
+            });
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>
+<p class="text-danger">[sessao3]</p>
+<section class="sp-coder-tab__coder shop-color-dark" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;relogio&quot;&gt;
+            &lt;span id=&quot;horas&quot;&gt;00&lt;/span&gt;
+            &lt;span class=&quot;separador&quot;&gt;:&lt;/span&gt;
+            &lt;span id=&quot;minutos&quot;&gt;00&lt;/span&gt;
+            &lt;span class=&quot;separador&quot;&gt;:&lt;/span&gt;
+            &lt;span id=&quot;segundos&quot;&gt;00&lt;/span&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .relogio {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-family: monospace;
+            font-size: 48px;
+            color: #222;
+            background: #f0f0f0;
+            padding: 20px 32px;
+            border-radius: 12px;
+            }
+
+            .separador {
+            color: #999;
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    function atualizarRelogio() {
+            const agora = new Date();
+            const h = String(agora.getHours()).padStart(2, &quot;0&quot;);
+            const m = String(agora.getMinutes()).padStart(2, &quot;0&quot;);
+            const s = String(agora.getSeconds()).padStart(2, &quot;0&quot;);
+
+            document.getElementById(&quot;horas&quot;).textContent = h;
+            document.getElementById(&quot;minutos&quot;).textContent = m;
+            document.getElementById(&quot;segundos&quot;).textContent = s;
+            }
+
+            atualizarRelogio();
+            setInterval(atualizarRelogio, 1000);
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>
+<p class="text-danger">[sessao4]</p>
+<section class="sp-coder-tab__coder shop-color-success" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;accordion&quot;&gt;
+            &lt;div class=&quot;accordion__item&quot;&gt;
+                &lt;button class=&quot;accordion__btn&quot;&gt;O que é PHP?&lt;/button&gt;
+                &lt;div class=&quot;accordion__panel&quot;&gt;PHP é uma linguagem de programação server-side amplamente usada para desenvolvimento web.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;accordion__item&quot;&gt;
+                &lt;button class=&quot;accordion__btn&quot;&gt;O que é CSS?&lt;/button&gt;
+                &lt;div class=&quot;accordion__panel&quot;&gt;CSS é a linguagem de estilos usada para definir a aparência de elementos HTML.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;accordion__item&quot;&gt;
+                &lt;button class=&quot;accordion__btn&quot;&gt;O que é JavaScript?&lt;/button&gt;
+                &lt;div class=&quot;accordion__panel&quot;&gt;JavaScript é a linguagem de programação que roda no navegador e adiciona interatividade às páginas.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .accordion {
+            width: 100%;
+            max-width: 500px;
+            font-family: Arial, sans-serif;
+            }
+
+            .accordion__item {
+            border-bottom: 1px solid #ddd;
+            }
+
+            .accordion__btn {
+            width: 100%;
+            text-align: left;
+            padding: 14px 16px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            }
+
+            .accordion__btn:hover {
+            background: #f5f5f5;
+            }
+
+            .accordion__panel {
+            display: none;
+            padding: 10px 16px 14px;
+            color: #555;
+            font-size: 14px;
+            }
+
+            .accordion__panel.active {
+            display: block;
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    const botoes = document.querySelectorAll(&quot;.accordion__btn&quot;);
+
+            botoes.forEach(btn =&gt; {
+            btn.addEventListener(&quot;click&quot;, () =&gt; {
+                const panel = btn.nextElementSibling;
+                const aberto = panel.classList.contains(&quot;active&quot;);
+
+                document.querySelectorAll(&quot;.accordion__panel&quot;).forEach(p =&gt; {
+                p.classList.remove(&quot;active&quot;);
+                });
+
+                if (!aberto) {
+                panel.classList.add(&quot;active&quot;);
+                }
+            });
+            });
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>

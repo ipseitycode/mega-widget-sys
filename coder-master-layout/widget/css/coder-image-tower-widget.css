@@ -1,0 +1,211 @@
+.sp-coder-tab__coder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1152px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 16px;
+    XXXborder: solid 1px red;
+}
+
+.sp-coder-tab__coder * {
+    XXXborder: solid 1px red;
+}
+
+.sp-coder-tab__coder__header {
+    display: flex;
+    width: 100%;
+    padding-left: 16px;
+}
+
+.sp-coder-tab__coder__tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: -1px;
+}
+
+.sp-coder-tab__coder__tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 32px;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #6c757d;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    filter: brightness(0.8);
+}
+
+.sp-coder-tab__coder__tab--active {
+    border-bottom: 1px solid transparent !important;
+    color: currentColor !important;
+    filter: brightness(1);
+}
+
+.sp-coder-tab__coder__body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sp-coder-tab__coder__title {
+    display: flex;
+    margin: 0;
+    font-size: 18px;
+    color: currentColor;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.sp-coder-tab__coder__editor {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dae1e7;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.sp-coder-tab__coder__toolbar {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.sp-coder-tab__coder__input {
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    color: currentColor;
+}
+
+.sp-coder-tab__coder__actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 16px;
+}
+
+.sp-coder-tab__coder__action-button {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #ced4da;
+    background-color: #e9ecef;
+    cursor: pointer;
+    padding: 0;
+}
+
+.sp-coder-tab__coder__panel {
+    display: flex;
+    background-color: #ebebeb;
+    border-top: 1px solid #dae1e7;
+    max-height: 480px;
+}
+
+.sp-coder-tab__coder__code {
+    display: block;
+    margin: 0;
+    padding: 24px 32px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #343a40;
+    width: 100%;
+    height: 512px;
+    overflow-y: auto;
+    overflow-x: auto;
+    white-space: pre;
+    scrollbar-width: thin;
+}
+
+.sp-coder-tab__coder__code::-webkit-scrollbar {
+    height: 3px;
+}
+
+.sp-coder-tab__coder__code::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sp-coder-tab__coder__code::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background-color: #aeb5bc;
+    border-radius: 8px;
+}
+
+.sp-coder-tab__coder__code::-webkit-scrollbar-button {
+    display: none;
+}
+
+@media (max-width: 1152px) {
+    .sp-coder-tab__coder__body {
+        gap: 12px;
+    }
+
+    .sp-coder-tab__coder__title {
+        font-size: 16px;
+    }
+
+    .sp-coder-tab__coder__tab {
+        padding: 8px 24px;
+        font-size: 13px;
+    }
+
+    .sp-coder-tab__coder__code {
+        padding: 20px 24px;
+        font-size: 14px;
+        height: 512px;
+    }
+}
+
+@media (max-width: 832px) {
+    .sp-coder-tab__coder__header {
+        padding-left: 8px;
+    }
+
+    .sp-coder-tab__coder__title {
+        font-size: 14px;
+    }
+
+    .sp-coder-tab__coder__tabs {
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .sp-coder-tab__coder__tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sp-coder-tab__coder__tab {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .sp-coder-tab__coder__code {
+        padding: 16px;
+        height: 400px;
+        font-size: 13px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .sp-coder-tab__coder__code::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sp-coder-tab__coder__toolbar {
+        padding: 8px 12px;
+    }
+}

@@ -1,0 +1,65 @@
+<section class="sp-coder-tab__coder shop-color-light" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;contador&quot;&gt;
+            &lt;button id=&quot;btn-decrementar&quot;&gt;-&lt;/button&gt;
+            &lt;span id=&quot;valor&quot;&gt;0&lt;/span&gt;
+            &lt;button id=&quot;btn-incrementar&quot;&gt;+&lt;/button&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .contador {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            }
+
+            .contador button {
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 50%;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+            }
+
+            .contador button:hover {
+            background: #555;
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    let valor = 0;
+            const span = document.getElementById(&quot;valor&quot;);
+
+            document.getElementById(&quot;btn-incrementar&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+            valor++;
+            span.textContent = valor;
+            });
+
+            document.getElementById(&quot;btn-decrementar&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+            valor--;
+            span.textContent = valor;
+            });
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>

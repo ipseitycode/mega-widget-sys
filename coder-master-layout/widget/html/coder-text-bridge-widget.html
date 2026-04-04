@@ -1,0 +1,61 @@
+<section class="sp-coder-tab__coder shop-color-dark" aria-labelledby="coder-title">
+    <header class="sp-coder-tab__coder__header">
+        <nav class="sp-coder-tab__coder__tabs" aria-label="Code tabs">
+            <button class="sp-coder-tab__coder__tab sp-coder-tab__coder__tab--active" aria-selected="true">HTML</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">CSS</button>
+            <button class="sp-coder-tab__coder__tab" aria-selected="false">JS</button>
+        </nav>
+    </header>
+    <article class="sp-coder-tab__coder__body">
+        <h3 id="coder-title" class="sp-coder-tab__coder__title">Código html</h3>
+        <div class="sp-coder-tab__coder__editor">
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    &lt;div class=&quot;relogio&quot;&gt;
+            &lt;span id=&quot;horas&quot;&gt;00&lt;/span&gt;
+            &lt;span class=&quot;separador&quot;&gt;:&lt;/span&gt;
+            &lt;span id=&quot;minutos&quot;&gt;00&lt;/span&gt;
+            &lt;span class=&quot;separador&quot;&gt;:&lt;/span&gt;
+            &lt;span id=&quot;segundos&quot;&gt;00&lt;/span&gt;
+            &lt;/div&gt;
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    .relogio {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-family: monospace;
+            font-size: 48px;
+            color: #222;
+            background: #f0f0f0;
+            padding: 20px 32px;
+            border-radius: 12px;
+            }
+
+            .separador {
+            color: #999;
+            }
+                </pre>
+            </div>
+            <div class="sp-coder-tab__coder__panel">
+                <pre class="sp-coder-tab__coder__code">
+                    function atualizarRelogio() {
+            const agora = new Date();
+            const h = String(agora.getHours()).padStart(2, &quot;0&quot;);
+            const m = String(agora.getMinutes()).padStart(2, &quot;0&quot;);
+            const s = String(agora.getSeconds()).padStart(2, &quot;0&quot;);
+
+            document.getElementById(&quot;horas&quot;).textContent = h;
+            document.getElementById(&quot;minutos&quot;).textContent = m;
+            document.getElementById(&quot;segundos&quot;).textContent = s;
+            }
+
+            atualizarRelogio();
+            setInterval(atualizarRelogio, 1000);
+                </pre>
+            </div>
+        </div>
+    </article>
+</section>
