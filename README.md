@@ -45,13 +45,9 @@ Consulte a playlist do YouTube para o passo a passo completo.
 
 ## 👨‍💻 Créditos
 
-**Desenvolvido por:** Kauan Dev (ipseitycode)
+**Desenvolvido por:** Cauan Dev (ipseitycode)
 
 Este projeto foi desenvolvido do zero e está sendo disponibilizado para a comunidade.
-
-## 📄 Licença
-
-Todos os direitos reservados ao desenvolvedor.
 
 ---
 
